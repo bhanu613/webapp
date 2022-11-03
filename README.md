@@ -1,6 +1,6 @@
 # Movie-Library-Web-Application
-# Name: Deepak V
-# Reg No: 18MIS0117
+# Name: Bhanu Agarwal
+# Reg No: 19BCE7630
 
 
 ![Project screenshot](https://raw.githubusercontent.com/paufar/movie-library/master/src/images/app-screenshot.png)
