@@ -1,0 +1,48 @@
+.movie-item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px auto 24px;
+	text-align: left;
+    height: auto;
+    width: 154px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px;
+    transition: all 0.2s linear;
+    border-radius: 2px;
+    
+    &:hover, 
+    &:active {
+    	background-color: var(--grey-dark-3);
+    	
+        .movie-title {
+    		color: var(--yellow);
+    	}
+
+    	.movie-release-date {
+    		color: var(--grey-light-2);
+    	}
+    }
+
+    >img {
+    	margin-bottom: 8px;
+        min-height: 231px;
+        width: 154px;
+    }
+
+    .movie-title {
+    	margin-bottom: 4px;
+    	line-height: 18px;
+    	font-weight: 500;
+
+    }
+
+    .movie-release-date {
+		color: var(--grey-light-3);
+    }
+
+    /* Desktop styling */
+    @media screen and (min-width: 992px) {
+        margin: 8px 8px 24px;
+    }
+}
